@@ -1,15 +1,16 @@
 const Benchmark = require("benchmark");
 
 const obid = require("../");
+const obidFoo = obid("foo");
 
 const suite = new Benchmark.Suite();
 
 suite.add("encode", () => {
-  return obid("foo").encode(0n);
+  return obidFoo.encode(0n);
 });
 
 suite.add("decode", () => {
-  return obid("foo").decode("JZAYZRRqdPkZ");
+  return obidFoo.decode("JZAYZRRqdPkZ");
 });
 
 suite.on("cycle", (event) => {
