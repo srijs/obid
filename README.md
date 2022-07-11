@@ -1,5 +1,9 @@
 # `obid`
 
+[![npm](https://img.shields.io/npm/v/obid)](https://www.npmjs.com/package/obid)
+[![npm bundle size](https://img.shields.io/bundlephobia/minzip/obid)](https://bundlephobia.com/package/obid)
+[![NPM](https://img.shields.io/npm/l/obid)](https://github.com/srijs/obid/blob/main/LICENSE)
+
 ## Summary
 
 `obid` provides a way to encode 64-bit integers (via `bigint`) into 12-character alphanumeric ids which are URL-safe and designed to minimize accidental profanity as well as errors when copied manually.
@@ -60,4 +64,4 @@ create an issue for discussion before working on a substantial change.
 
 ## License
 
-[MIT](https://github.com/srijs/obid/blob/master/LICENSE)
+[MIT](https://github.com/srijs/obid/blob/main/LICENSE)
